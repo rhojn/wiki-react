@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  background: #dbe6f6;
+}
+
+.header.initiated {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header.initiated .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.brand a {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.initiated .brand a {
+  font-size: 80px;
+}
