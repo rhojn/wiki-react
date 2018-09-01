@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  background: #dbe6f6;
+  background: #fff;
 }
 
 .header.initiated {
@@ -21,7 +21,7 @@
 .brand a {
   font-family: 'Montserrat', Arial, sans-serif;
   font-size: 24px;
-  font-weight: 600;
+  color: #333;
 }
 
 .initiated .brand a {

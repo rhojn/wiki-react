@@ -4,7 +4,7 @@ input {
   box-shadow: none;
   border: none;
   border-radius: 0;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .search-box {
@@ -15,12 +15,19 @@ input {
 
 .search-box input {
   padding: 8px 16px;
-  border-bottom: 4px solid;
   font-family: 'Montserat', Arial, Helvetica, sans-serif;
+  transition: all .3s ease;
+  background: #fff;
+  border-bottom: 4px solid #333;
 }
 
 .search-box input::placeholder {
   color: #202124;
+}
+
+.search-box input:hover,
+.search-box input:active,
+.search-box input:focus {
 }
 
 .initiated .search-box input {
@@ -38,4 +45,11 @@ input {
   font-size: 24px;
   padding: 8px;
   cursor: pointer;
+}
+
+.search-box .search.icon {
+  color: #333;
+  border-width: 4px;
+  width: 20px;
+  height: 20px;
 }
