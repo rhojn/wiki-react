@@ -1,0 +1,31 @@
+.result-item {
+  width: 100%;
+  padding: 24px 24px 24px 20px;
+  background: #fff;
+  margin-bottom: 24px;
+  transition: all .3s ease;
+  border-left: 4px solid transparent;
+}
+
+.result-item:hover {
+  border-color: #417AFF;
+}
+
+.result-item:hover .result-title {
+  color: #417AFF;
+}
+
+.result-title {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all .3s ease;
+}
+
+.result-body {
+  margin: 0;
+  font-size: 16px;
+}
