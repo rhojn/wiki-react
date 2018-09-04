@@ -6,17 +6,16 @@ import ResultItem from '../ResultItem';
 class ResultList extends Component {
   render() {
     const { results } = this.props;
-    console.log(results);
     return (
       <div className="result-list">
         <ul>
-          {
-            results.map((result) => (
-              <li key={result.id}>
-                <ResultItem result={result} />
-              </li>
-            ))
-          }
+            {
+              results.map((result, index) => (
+                <li key={index}>
+                  <ResultItem index={index} result={result} />
+                </li>
+              ))
+            }
         </ul>
       </div>
     )

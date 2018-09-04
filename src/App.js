@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import './App.css';
 
-import Header from './components/Header';
 import Container from './components/Container';
 import Hero from './components/Hero';
 import ResultBox from './components/ResultBox';
@@ -35,11 +34,11 @@ class App extends Component {
   }
 
   handlePageChange(e) {
-    const { cachedResults, results, page } = this.state;
+    const { cachedResults, page } = this.state;
     const toPage = Number(e.target.dataset.page);
     if(toPage !== page) {
-      const start = toPage === 1 ? 0 : toPage === 2 ? 10 : (toPage - 1)  * 10;
-      const end = start + 10;
+      const start = toPage === 1 ? 0 : toPage === 2 ? 20 : (toPage - 1)  * 20;
+      const end = start + 20;
       this.setState({results: cachedResults.slice(start, end), page: toPage});
     }
   };
@@ -47,9 +46,9 @@ class App extends Component {
   handleSearchSubmit(searchKeyword) {
     const { keyword } = this.state;
     const apiLink = `https://en.wikipedia.org/w/api.php?action=opensearch&search=${searchKeyword}&limit=max&format=json&origin=*`;
-
+    
     if(searchKeyword !== keyword) {
-      this.setState({mode: "loading"});
+      this.setState({mode: "loading", results: [], cachedResults: [], page: 1, pages: null});
       fetch(apiLink)
         .then(res => res.json())
         .then((data) => {
@@ -65,10 +64,10 @@ class App extends Component {
 
           this.setState({
             mode: "success",
-            results: formatData.slice(0, 10),
+            results: formatData.slice(0, 20),
             cachedResults: formatData,
             keyword: searchKeyword,
-            pages: formatData.length / 10
+            pages: formatData.length / 20
           });
         }, (error) => {
             console.error(error);
