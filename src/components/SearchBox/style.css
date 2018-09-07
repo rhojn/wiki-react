@@ -20,7 +20,7 @@
   border-radius: 2px;
   overflow: none;
   transition: all .3s ease;
-  box-shadow: 0 2px 4px 0 rgba(50,50,93,.1);
+  box-shadow: 0 1px 2px 0 rgba(50,50,93,.1);
 }
 
 .search-form input:hover,
@@ -34,4 +34,9 @@
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.search-form:hover .icon.search,
+.search-form:focus .icon.search {
+  color: #417AFF;
 }

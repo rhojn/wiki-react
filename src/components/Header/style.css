@@ -6,7 +6,7 @@
 .header .container {
   height: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -24,6 +24,12 @@
   transition: opacity .3s ease;
 }
 
-.header.initialized .brand {
+.header.initialized .brand,
+.header.initialized .social {
   opacity: 0;
+}
+
+.social a img {
+  width: 24px;
+  object-fit: cover;
 }

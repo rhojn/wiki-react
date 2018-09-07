@@ -23,6 +23,7 @@
   height: 100%;
   padding: 16px;
   cursor: pointer;
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 .pagination-item span:hover {

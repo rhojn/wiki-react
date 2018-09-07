@@ -12,9 +12,9 @@
 
 .result-item {
   width: 100%;
-  padding: 24px 24px 24px 20px;
+  padding: 10px 16px 10px 12px;
   background: #fff;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   transition: all .3s ease;
   border-left: 4px solid transparent;
 }

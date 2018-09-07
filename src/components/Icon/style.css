@@ -1,7 +1,7 @@
 /* Icons from https://cssicon.space/ */
 .icon-wrapper {
   width: 24px;
-  height: 24px;
+  height: 27px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -9,21 +9,21 @@
 }
 
 .search.icon {
-  color: #000;
+  color: #3F3E43;
   position: absolute;
-  width: 12px;
-  height: 12px;
-  border: solid 1px currentColor;
+  width: 14px;
+  height: 14px;
+  border: solid 2px currentColor;
   border-radius: 100%;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  transition: all .3s ease;
 }
 .search.icon:before {
   content: '';
   position: absolute;
-  top: 12px;
-  left: 5px;
-  height: 6px;
-  width: 1px;
+  top: 10px;
+  left: 4px;
+  height: 10px;
+  width: 2px;
   background-color: currentColor;
 }
