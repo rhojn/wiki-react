@@ -6,11 +6,7 @@
   flex-direction: column;
   transition: all .3s ease;
   height: 150px;
-  background: #417AFF;
-background: #00c6ff;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #f5f5f5;
 }
 
 .hero > .container {
@@ -25,8 +21,12 @@ background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, F
   height: 100vh;
 }
 
+.hero.success {
+  background: #417AFF;
+}
+
 .quote-box {
-  color: #fff;
+  color: #333;
   font-size: 16px;
   font-family: 'Montserrat', Arial, sans-serif;
   padding: 24px 10%;
@@ -47,7 +47,7 @@ background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, F
 }
 
 .hero-brand a {
-  color: #fff;
+  color: #333;
   font-family: 'Montserrat', Arial, sans-serif;
   font-size: 60px;
   letter-spacing: 1px;

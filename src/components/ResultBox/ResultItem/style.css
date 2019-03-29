@@ -16,11 +16,7 @@
   background: #fff;
   margin-bottom: 16px;
   transition: all .3s ease;
-  border-left: 4px solid transparent;
-}
-
-.result-item:hover {
-  border-color: #417AFF;
+  border-radius: 6px;
 }
 
 .result-item:hover .result-title {
