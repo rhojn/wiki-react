@@ -21,7 +21,7 @@ class ResultItem extends Component {
     const { show } = this.state;
     const { result, index } = this.props;
     return (
-        <a href={ result.link} className={`result-item-link ${show ? 'show' : ''}`} style={{transitionDelay: `.${3 + index}s`}} target="_blank">
+        <a href={ result.link} rel="noopener noreferrer" className={`result-item-link ${show ? 'show' : ''}`} style={{transitionDelay: `.${3 + index}s`}} target="_blank">
           <div className="result-item">
             <div className="result-item-wrapper">
               <h1 className="result-title">{ result.title }</h1>
