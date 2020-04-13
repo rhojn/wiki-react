@@ -1,6 +1,22 @@
 {
-  "main.css": "static/css/main.d6f4f1a7.css",
-  "main.css.map": "static/css/main.d6f4f1a7.css.map",
-  "main.js": "static/js/main.a57f287e.js",
-  "main.js.map": "static/js/main.a57f287e.js.map"
+  "files": {
+    "main.css": "/wiki-react/static/css/main.ed37c47a.chunk.css",
+    "main.js": "/wiki-react/static/js/main.11fbcc7e.chunk.js",
+    "main.js.map": "/wiki-react/static/js/main.11fbcc7e.chunk.js.map",
+    "runtime-main.js": "/wiki-react/static/js/runtime-main.197299e9.js",
+    "runtime-main.js.map": "/wiki-react/static/js/runtime-main.197299e9.js.map",
+    "static/js/2.84260c9f.chunk.js": "/wiki-react/static/js/2.84260c9f.chunk.js",
+    "static/js/2.84260c9f.chunk.js.map": "/wiki-react/static/js/2.84260c9f.chunk.js.map",
+    "index.html": "/wiki-react/index.html",
+    "precache-manifest.8ec36a26535445a0579764ad977d1eea.js": "/wiki-react/precache-manifest.8ec36a26535445a0579764ad977d1eea.js",
+    "service-worker.js": "/wiki-react/service-worker.js",
+    "static/css/main.ed37c47a.chunk.css.map": "/wiki-react/static/css/main.ed37c47a.chunk.css.map",
+    "static/js/2.84260c9f.chunk.js.LICENSE.txt": "/wiki-react/static/js/2.84260c9f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.197299e9.js",
+    "static/js/2.84260c9f.chunk.js",
+    "static/css/main.ed37c47a.chunk.css",
+    "static/js/main.11fbcc7e.chunk.js"
+  ]
 }
